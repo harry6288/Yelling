@@ -20,5 +20,11 @@ public class YellingTest {
 		String result = r.scream("Peter");
 		assertEquals("Peter is yelling",result);
 	}
+	@Test
+	public void testNoOneYelling() {
+		Yelling r = new Yelling();
+		String result = r.scream(null);
+		assertEquals("Nobody is yelling",result);
+	}
 
 }
