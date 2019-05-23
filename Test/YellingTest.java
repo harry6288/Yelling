@@ -34,4 +34,12 @@ public class YellingTest {
 
 
 }
+	@Test
+	public void twoPeopleYelling() {
+		Yelling r = new Yelling();
+		String result = r.scream("Peter, Kadeem");
+		assertEquals("Peter and Kadeem are yelling.",result);
+
+
+}
 }
