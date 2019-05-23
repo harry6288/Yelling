@@ -15,8 +15,10 @@ public class YellingTest {
 	}
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void testOnePersonYelling() {
+		Yelling r = new Yelling();
+		String result = r.scream("Peter");
+		assertEquals("Peter is yelling",result);
 	}
 
 }
