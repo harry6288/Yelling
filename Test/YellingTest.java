@@ -23,7 +23,7 @@ public class YellingTest {
 	@Test
 	public void testNoOneYelling() {
 		Yelling r = new Yelling();
-		String result = r.scream(null);
+		String result = r.scream("");
 		assertEquals("Nobody is yelling",result);
 	}
 
