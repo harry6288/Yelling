@@ -38,6 +38,7 @@ public class YellingTest {
 	public void twoPeopleYelling() {
 		Yelling r = new Yelling();
 		String result = r.scream("Peter, Kadeem");
+		System.out.println(result);
 		assertEquals("Peter and Kadeem are yelling.",result);
 
 
